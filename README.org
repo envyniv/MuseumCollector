@@ -1,0 +1,39 @@
+#+title: MuseumCollector
+Museum Collector is an education-oriented Wolf3D look-alike implemented in javascript.
+
+The goal is to create a raycasting-based dungeon crawler with objects to collect in a certain order during each level.
+
+Each level should be randomly generated.
+
+* Todo:
+- [ ] Generate Maze (unidim array)
+- [ ] Raycasting
+  - [ ] Sprites & Textures
+- [X] 'enemies'
+- [X] objects to collect
+- Guards
+  - [X] Sentry
+  - [ ] Roamer
+  - [ ] Chaser
+
+* Attrib
+
+** Music
+https://opengameart.org/content/briefing
+https://opengameart.org/content/boba-gor
+https://opengameart.org/content/covert-action
+https://opengameart.org/content/escape-from-metal-city - level complete
+
+** [[[[SFX made with JFXR]]][https://jfxr.frozenfractal.com/]]
+
+** Textures and sprites
+https://opengameart.org/content/doom-wall-textures
+https://opengameart.org/content/human-guard-for-sprite-based-fps - basis for guards
+
+* per il Prof. Scibetta
+Questo gioco, come enunciato dalla parte iniziale del README, doveva essere un clone pseudo-educativo/didattico di Wolfenstein 3D.
+A causa di malgestione del tempo provvisto prima della consegna da mia parte, non sono riuscito ad implementare la funzionalità di rendering tramite il Raycasting;
+Invece, la generazione del labirinto era troppo minimale e, quindi, fallata.
+Per rispettare la consegna, ho deciso all'ultimo minuto di restringere lo scopo del gioco ad un semplice 'Simone Dice / Simon Says'.
+Ma il codice permette ancora l'implementazione della componente 3d e di tutti gli altri elementi più riconducibili ad un dungeon crawler.
+La prego di visionare il codice sorgente e di tenere in considerazione questo fatto.
